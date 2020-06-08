@@ -1,6 +1,5 @@
 package repositories.interfaces;
 
-import domain.UserLoginData;
 
 import java.util.List;
 

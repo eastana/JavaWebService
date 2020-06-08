@@ -55,7 +55,6 @@
             <version>3.0.0-M1</version>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -77,6 +76,7 @@
             <scope>runtime</scope>
         </dependency>
 
-    </dependencies>;
-    
+    </dependencies>
+
+
 </project>

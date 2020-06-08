@@ -3,6 +3,7 @@ package controllers;
 import domain.models.Group;
 import filters.customAnnotations.JWTTokenNeeded;
 import filters.customAnnotations.OnlyAdmin;
+import services.GroupService;
 import services.interfaces.IGroupService;
 
 import javax.ws.rs.*;
