@@ -13,7 +13,7 @@ public class PostgresRepository implements IDBRepository {
     public static Connection getConnection() {
         try{
             return DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPFINAL",
-                    "postgres", "87779548066");
+                    "postgres", "***");
         }catch (SQLException e){
             throw new InternalServerErrorException();
         }
